@@ -1,0 +1,17 @@
+
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    },
+     "godot": {
+        "host": "127.0.0.1",
+        "filetypes": ["gdscript", "gd"],
+        "port": 6005,
+        "trace.server": "verbose"
+    }
+  }
+}
